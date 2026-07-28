@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "b0445df655708407",
+    "type": "split",
+    "children": [
+      {
+        "id": "c708d035cec1cc4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ab85d7bd3a3f9e6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5dff7457ad791823",
+    "type": "split",
+    "children": [
+      {
+        "id": "e40912a407d84437",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c089ee803ce5541",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d0752a0c8eb8be52",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "014dc4c9e70f4c5a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04d0e67705b4ca48",
+    "type": "split",
+    "children": [
+      {
+        "id": "39d0eaf4a92fcdd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58f0c819af0cbf7d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9dad630439844f78",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f5ac323641214066",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bce61580ffa32fe6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "4ec7b17ef7afc9a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 539.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "8ab85d7bd3a3f9e6",
+  "lastOpenFiles": [
+    "Research general direction/Storage.md",
+    "Research general direction/Layer_Secondary_Control.md",
+    "Research general direction/Layer_Primary_Control.md",
+    "Research general direction/Load.md",
+    "Research general direction/Power_Grid_System.md",
+    "Research general direction/Algorithm.md",
+    "Research general direction/Layer_Tertiary_Control.md",
+    "Research general direction/Source_of_System.md",
+    "Research general direction/Algorithm_to_Control_System.md",
+    "Research general direction/Communication.md",
+    "Research general direction/Agent_Deep_Entity_Researcher.md",
+    "Research general direction/Source.md",
+    "Templates/Daily Note.md",
+    "Templates/Research Report.md",
+    "research general direction/Power_Grid_System.md",
+    "research general direction/Source_of_System.md",
+    "research general direction/Communication.md",
+    "research general direction/Load.md",
+    "research general direction/Algorithm_to_Control_System.md",
+    "research general direction/Storage.md",
+    "Renewable_Energy.md",
+    "Research general direction/Power_System_Research_Landscape.md",
+    "research general direction/Power_System_Research_Landscape.md",
+    "Research general direction",
+    "Test Note.md",
+    "Untitled.md"
+  ]
+}
