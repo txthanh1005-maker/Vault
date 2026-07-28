@@ -1,37 +1,26 @@
-# Source of System (L1)
+Direct Parent Connection: -> [[Power_Grid_System]]
 
-**Direct Parent Connection:** -> [[Power_Grid_System]]
+# SOURCE OF SYSTEM (NGUỒN PHÁT)
+*(Nút Không gian Lớp 1: Đóng vai trò là cơ bắp và gốc rễ năng lượng của toàn bộ hệ thống).*
 
-**Mô tả kết nối hướng tâm:** 
-Đóng vai trò là gốc rễ năng lượng của toàn bộ mạng lưới. Trong kỷ nguyên hiện đại, việc nghiên cứu Nguồn phát không chỉ dừng lại ở cách tạo ra điện (Physical Energy), mà còn đi sâu vào cách chúng kết nối và giao tiếp với lưới điện thông qua các linh kiện công suất (Grid Integration).
+## 1. Bản chất & Tính chất Chung (Common Properties)
+- Nơi chuyển hóa các dạng năng lượng sơ cấp (Hóa năng, Động năng gió, Quang năng) thành Điện năng.
+- Chức năng cốt lõi là bơm công suất hữu công (P) để duy trì hệ thống và điều tiết công suất vô công (Q) để giữ điện áp cục bộ.
+- Được kết nối và giao tiếp với lưới điện thông qua các máy điện (đồng bộ/không đồng bộ) hoặc linh kiện điện tử công suất (Inverters).
 
----
-## ươm mầm Lớp Level 2 (Bản đồ Phân loại Nguồn phát Toàn diện)
+## 2. Sơ đồ Phân loại (Taxonomy / Splitting)
+### 2.1. Năng lượng Tái tạo (Renewable Energy)
+- **[[Solar_PV]]:** Thuật toán MPPT, ảnh hưởng bóng râm, dự báo bức xạ.
+- **[[Wind_Energy]]:** Khí động học tuabin, điều khiển góc quay (Pitch control), luồng gió thức (Wake effect).
 
-*(Theo quy tắc Hydra: Khi khối lượng nghiên cứu nội tại $W > W_{max}$, các đề mục dưới đây sẽ tự động bóc tách thành các Node file `.md` độc lập có chứa link hướng tâm `[[Source_of_System]]`)*
+### 2.2. Nhà máy điện lai & Tương lai (Hybrid & Emerging Sources)
+- **[[Hybrid_Power_Plants]]:** Phối hợp Gió - Mặt trời tại chung điểm đấu nối (PCC), ghép nối với Máy điện phân (Electrolyzer).
+- **[[Hydrogen_Fuel_Cells]]:** Nguồn phát nền tĩnh (Baseload) thay thế Diesel.
+- **[[Flexible_Biomass]]:** Sinh khối linh hoạt, tốc độ tăng tải (Fast Ramping) nhanh.
+- **[[Ocean_Energy]]:** Năng lượng sóng biển/thủy triều cấp điện cho Microgrid hải đảo.
 
-### PHẦN A: THEO BẢN CHẤT NĂNG LƯỢNG (PHYSICAL SOURCES)
-*Săn tìm các đề tài về công nghệ vật liệu, mô hình hóa động học và tối ưu hóa hiệu suất.*
-
-- **1. Năng lượng Tái tạo cốt lõi (Renewable Energy):**
-  - *Solar PV:* Thuật toán MPPT dưới bóng râm cục bộ, dự báo chuỗi thời gian bức xạ mặt trời (Forecasting).
-  - *Wind Energy:* Khí động học tuabin, điều khiển góc quay cánh quạt (Pitch control), tác động luồng gió thức (Wake effect) trong trang trại gió.
-- **2. Nhà máy điện lai (Hybrid Power Plants):**
-  - *Wind-Solar Synergy:* Phối hợp gió - mặt trời tại chung điểm đấu nối (PCC) để triệt tiêu tính bất định.
-  - *RE-Hydrogen Coupling:* Dùng điện tái tạo dư thừa chạy máy điện phân (Electrolyzer) tạo Hydro xanh tại chỗ.
-- **3. Năng lượng Mới & Đột phá (Emerging Clean Sources):**
-  - *Hydrogen Fuel Cells:* Dùng Pin nhiên liệu Hydro làm nguồn phát nền tĩnh (Baseload) thay thế Diesel.
-  - *Flexible Biomass:* Máy phát sinh khối thay đổi công suất nhanh (Fast Ramping) để bù đắp hụt điện mặt trời.
-  - *Ocean Energy:* Năng lượng sóng biển/thủy triều cấp điện cho Microgrid hải đảo.
-
-### PHẦN B: THEO CÔNG NGHỆ KẾT NỐI & ĐIỀU KHIỂN LƯỚI (GRID INTEGRATION)
-*Săn tìm các đề tài về thiết kế mạch, điều khiển biến tần và duy trì ổn định hệ thống điện.*
-
-- **4. Nguồn phát qua Biến tần (Inverter-Based Resources - IBRs):**
-  - *Grid-Following (GFL - Bám lưới):* Hành xử như nguồn dòng (Current Source), chạy vòng lặp PLL. Gặp bất ổn định trên lưới điện yếu.
-  - *Grid-Forming (GFM - Tạo lưới):* Hành xử như nguồn áp (Voltage Source). Tự thiết lập tần số/điện áp, cung cấp Quán tính ảo (Virtual Inertia). Ứng dụng kỹ thuật: VSG (Virtual Synchronous Generator), VOC.
-- **5. Nguồn Phân tán & Lưu trữ Bơm ngược (Active DERs):**
-  - *V2G (Vehicle-to-Grid):* Xe điện hoạt động như nguồn phát di động (Mobile DERs) bơm ngược điện lên lưới cạo đỉnh.
-  - *BESS Discharging:* Hệ thống lưu trữ khi xả điện (kết hợp GFM) đóng vai trò là nguồn phát khẩn cấp duy trì Microgrid.
-- **6. Máy phát Cơ khí Kỷ nguyên mới (Mechanical Resilience):**
-  - *Synchronous Condensers (Máy bù đồng bộ):* Máy phát cũ tháo tuabin, chỉ giữ Rotor chạy không tải. Không phát công suất nhưng cung cấp **Quán tính vật lý tuyệt đối (Physical Inertia)** và dòng ngắn mạch khổng lồ để cứu lưới.
+### 2.3. Công nghệ Kết nối Lưới (Grid Integration Technologies)
+- **[[Grid_Following_Inverter]]:** Biến tần bám lưới (Nguồn dòng).
+- **[[Grid_Forming_Inverter]]:** Biến tần tạo lưới (Nguồn áp), cung cấp Quán tính ảo (Virtual Inertia).
+- **[[V2G_Mobile_Source]]:** Xe điện làm nguồn phát phân tán di động (Active DERs).
+- **[[Synchronous_Condenser]]:** Máy bù đồng bộ, cung cấp quán tính vật lý tuyệt đối và dòng ngắn mạch.

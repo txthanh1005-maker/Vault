@@ -1,14 +1,15 @@
-# Layer: Primary Control & Physics (Tầng Vật lý Tức thời)
+Direct Parent Connection: -> [[Power_Grid_System]]
 
-**Thuộc trục:** Trục Thời gian (Time-scale Dimension)
-**Kết nối về gốc:** -> [[Power_Grid_System]]
+# LAYER: PRIMARY CONTROL (TẦNG ĐIỀU KHIỂN SƠ CẤP)
+*(Trục Thời gian L1: Tầng đại diện cho các đáp ứng vật lý tự nhiên và điều khiển phân tán tức thời, hoàn toàn miễn nhiễm với quy luật kinh tế).*
 
-**Mô tả:** Tầng này đại diện cho các đáp ứng vật lý tự nhiên và điều khiển phân tán tức thời của Lưới điện trong khung thời gian từ Micro-giây (µs) đến vài chục giây (s). Lớp vỏ này miễn nhiễm hoàn toàn với các quy luật kinh tế hay thị trường điện.
+## 1. Bản chất & Tính chất Chung (Common Properties)
+- **Khung thời gian:** Tác động siêu tốc từ Micro-giây ($\mu s$) đến vài chục giây ($s$).
+- **Mục tiêu cốt lõi:** Cứu lưới khỏi sụp đổ ngay khi có sự cố. Hãm đà rơi của tần số (RoCoF) và giữ các máy phát không bị mất đồng bộ góc Rotor.
+- **Đặc trưng:** Là phản xạ tự nhiên vô điều kiện của máy móc vật lý. Quá trình này hãm được thảm họa nhưng luôn tạo ra sai số tĩnh (Steady-state error) chứ không đưa lưới về được điểm chuẩn ban đầu.
 
-## Các Đặc tính (Properties) & Giao điểm (Intersections)
-*Mọi bài báo nghiên cứu được gán tag/link tới Node này đều đang giải quyết bài toán vật lý, diễn ra trong chớp mắt.*
-
-1. **Electromagnetic Transients (EMT):** Quá trình lan truyền sóng điện từ, dòng xung kích (inrush), nhiễu loạn sóng mang Inverter (Micro-giây đến mili-giây).
-2. **Inertia (Quán tính tự nhiên):** Động năng tích lũy trong Rotor từ tính ($E = \frac{1}{2}J\omega^2$). Đóng vai trò là cái "phanh" hãm tốc độ sụt tần số đột ngột (RoCoF).
-3. **Transient Stability (Ổn định quá độ):** Sự đồng bộ của góc Rotor dựa theo phương trình Swing. Nếu mất đồng bộ trong nửa giây, lưới sẽ rã.
-4. **Droop Control:** Vòng điều khiển sơ cấp cục bộ trên từng máy phát ($\Delta P \propto \Delta f$). Nó phanh đà rơi tần số thành công nhưng luôn để lại một khoảng sai số tĩnh (Steady-state error).
+## 2. Sơ đồ Phân loại (Taxonomy / Splitting)
+- **[[Electromagnetic_Transients]]:** (EMT) Quá trình lan truyền sóng điện từ, dòng xung kích, nhiễu loạn sóng mang (Micro-giây đến mili-giây).
+- **[[Grid_Inertia]]:** Động năng tích lũy trong Rotor từ tính ($E = 0.5 J \omega^2$). Đóng vai trò là cái "phanh" tự nhiên.
+- **[[Transient_Stability]]:** Ổn định quá độ góc Rotor dựa theo phương trình Swing. (Quyết định sinh tử trong nửa giây đầu tiên).
+- **[[Droop_Control]]:** Điều khiển độ dốc phân tán tại từng máy phát ($\Delta P \propto \Delta f$) để chia sẻ tải chênh lệch.
