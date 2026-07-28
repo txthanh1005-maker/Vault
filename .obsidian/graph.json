@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "Thanh",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "Thành_ hướng nghiên cứu",
@@ -25,6 +25,6 @@
   "repelStrength": 18.0208333333333,
   "linkStrength": 0,
   "linkDistance": 130,
-  "scale": 0.6846431202422381,
-  "close": true
+  "scale": 0.6846431202422344,
+  "close": false
 }

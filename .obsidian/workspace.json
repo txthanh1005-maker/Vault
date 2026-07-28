@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a0e24457f024dd3b",
+        "id": "a41d7437e45c7704",
         "type": "tabs",
         "children": [
           {
-            "id": "3a53cf7dafb759b4",
+            "id": "5bc9a6fa52c64e13",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,20 +20,19 @@
             }
           },
           {
-            "id": "3baf30ade2eec46c",
+            "id": "c4b9bb7e437972fa",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Research general direction/Storage.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Storage"
+              "title": "Juggl"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,36 +212,36 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "3a53cf7dafb759b4",
+  "active": "c4b9bb7e437972fa",
   "lastOpenFiles": [
+    "Research general direction/Operational_Objectives.md",
+    "Research general direction/MPC.md",
     "Research general direction/Power_Grid_System.md",
+    "Research general direction/Algorithm.md",
+    "Research general direction/BESS.md",
+    "Research general direction/P2P_Energy_Trading.md",
+    "Research general direction/Exact_Solvers.md",
+    "Research general direction/MILP.md",
+    "Research general direction/MILP_Multi_Node.md",
+    "Research general direction/MILP_Single_Node.md",
+    "Research general direction/Radial_P2P.md",
+    "Research general direction/Mesh_P2P.md",
+    "Research general direction/ADMM.md",
+    "Research general direction/Flexible_Load.md",
+    "Research general direction/Demand_Response.md",
+    "Research general direction/Load.md",
+    "Research general direction/Communication.md",
     "Research general direction/Storage.md",
     "Research general direction/Source_of_System.md",
-    "Research general direction/Load.md",
     "Research general direction/Layer_Tertiary_Control.md",
     "Research general direction/Layer_Secondary_Control.md",
     "Research general direction/Layer_Primary_Control.md",
-    "Research general direction/Communication.md",
-    "Research general direction/BESS.md",
-    "Research general direction/Algorithm.md",
-    "ROOT.md",
-    "excalibrain.md",
-    "Excalidraw/Drawing 2026-07-28 21.55.30.excalidraw.md",
-    "Flywheel.md",
-    "Excalidraw/Drawing 2026-07-28 21.16.38.excalidraw.md",
-    "2026-07-28.md",
+    "Research general direction/Power_Quality.md",
+    "Research general direction/Environmental_Emission.md",
+    "Research general direction/Reliability_Security.md",
+    "Research general direction/Economic_Optimization.md",
     "Excalidraw",
     "Templates/desktop.ini",
-    "Supercapacitor.md",
-    "BESS_Inverter_Topology.md",
-    "BESS_Cooling_System.md",
-    "BESS_Cell_Chemistry.md",
-    "Research general direction/BESS_Grid_Interaction.md",
-    "Research general direction/BESS_Pure_Entity.md",
-    "Research general direction/Algorithm_to_Control_System.md",
-    "Research general direction/Agent_Deep_Entity_Researcher.md",
-    "Research general direction/Source.md",
-    "Templates/Daily Note.md",
     "Research general direction"
   ]
 }
