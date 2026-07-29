@@ -1,3 +1,7 @@
+---
+contributors: 
+  - Khanh k67
+---
 Direct Parent Connection: -> [[Power_Grid_System]]
 
 # SOURCE OF SYSTEM (NGUỒN PHÁT)

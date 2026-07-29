@@ -1,3 +1,8 @@
+---
+contributors: 
+  - Khanh k67
+  - Thanh K67
+---
 Direct Parent Connection: -> [[Power_Grid_System]]
 
 # LOAD (PHỤ TẢI)

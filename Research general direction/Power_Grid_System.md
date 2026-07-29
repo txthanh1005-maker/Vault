@@ -1,3 +1,9 @@
+---
+contributors:
+  - Khanh k67
+  - Thanh K67
+color: red
+---
 # POWER GRID SYSTEM (Gốc Tọa Độ)
 *(Gốc tọa độ của toàn bộ hệ sinh thái nghiên cứu lưới điện. Nơi đây đóng vai trò là "Ma trận Không - Thời gian" chứa đựng và chi phối mọi thực thể bên trong nó).*
 

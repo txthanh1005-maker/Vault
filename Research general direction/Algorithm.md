@@ -1,6 +1,7 @@
 ---
 contributors: 
   - Thanh K67
+  - Khanh k67
 ---
 Direct Parent Connection: -> [[Power_Grid_System]]
 
@@ -27,3 +28,4 @@ Direct Parent Connection: -> [[Power_Grid_System]]
 - **[[Machine_Learning_Grid]]:** Dữ liệu hóa. Học sâu (ANN), Học tăng cường (DRL).
 - **[[Convex_Optimization]]:** Lý thuyết tối ưu lồi (KKT conditions) và không lồi.
 - **[[ADMM]]:** Phương pháp phân rã, xử lý đồng thuận phân tán (Distributed consensus).
+- **[Game_Theory](obsidian://open?file=Game_Theory):** Lý thuyết trò chơi. Mô hình hóa sự tương tác, cạnh tranh (Stackelberg) và hợp tác giữa các thực thể ra quyết định độc lập (Multi-Agent).
