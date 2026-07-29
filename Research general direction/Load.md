@@ -12,4 +12,4 @@ Direct Parent Connection: -> [[Power_Grid_System]]
 - **[[Residential_Load]]:** Phụ tải dân dụng (Biến động mạnh theo giờ sinh hoạt, tỷ trọng thiết bị thắp sáng và làm mát cao).
 - **[[Industrial_Load]]:** Phụ tải công nghiệp (Công suất lớn, ổn định, nhưng cực kỳ nhạy cảm với chất lượng điện năng như sụt áp, sóng hài).
 - **[[Flexible_Load]]:** Phụ tải linh hoạt (Smart Appliances, HVAC). Các thiết bị có thể tắt/mở từ xa tham gia vào các chương trình Đáp ứng Phụ tải (Demand Response - DR).
-- **[[EV_Charging_Station]]:** Trạm sạc xe điện (Đóng vai trò như một siêu phụ tải đột biến, có thể đảo chiều thành nguồn lưu trữ).
+- **[[Electric_Vehicle]]:** Xe điện và Trạm sạc (Đóng vai trò như một siêu phụ tải linh hoạt G2V, đồng thời là nguồn phát phân tán V2G).

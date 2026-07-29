@@ -22,5 +22,5 @@ Direct Parent Connection: -> [[Power_Grid_System]]
 ### 2.3. Công nghệ Kết nối Lưới (Grid Integration Technologies)
 - **[[Grid_Following_Inverter]]:** Biến tần bám lưới (Nguồn dòng).
 - **[[Grid_Forming_Inverter]]:** Biến tần tạo lưới (Nguồn áp), cung cấp Quán tính ảo (Virtual Inertia).
-- **[[V2G_Mobile_Source]]:** Xe điện làm nguồn phát phân tán di động (Active DERs).
+- **[[Electric_Vehicle]]:** Xe điện làm nguồn phát phân tán di động (Active DERs thông qua giao thức V2G).
 - **[[Synchronous_Condenser]]:** Máy bù đồng bộ, cung cấp quán tính vật lý tuyệt đối và dòng ngắn mạch.
