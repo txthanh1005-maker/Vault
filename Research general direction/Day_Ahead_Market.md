@@ -13,7 +13,7 @@ Direct Parent Connection: -> [[Power_System_Scheduling]]
 
 Về mặt bản chất cốt lõi, Day-Ahead Market (DAM) không hoạt động như một "thị trường" tài chính hay hàng hóa đàm phán tự do thông thường. Bản chất của DAM là **một bộ giải thuật toán quy hoạch toán học khổng lồ (Mathematical Programming Solver)** được thiết kế để ánh xạ các định luật vật lý của lưới điện (Định luật Kirchhoff, giới hạn nhiệt động lực học) vào một hàm mục tiêu kinh tế.
 
-Dưới góc độ thuần vật lý và toán học, DAM là bài toán **Trào lưu công suất tối ưu (Optimal Power Flow - OPF)** kết hợp với **Cam kết tổ máy (Unit Commitment - UC)**. 
+Dưới góc độ thuần vật lý và toán học, DAM là bài toán **Trào lưu công suất tối ưu (Optimal Power Flow - OPF)** kết hợp với **Cam kết tổ máy (**[[Unit_Commitment]]:**)**. 
 
 ### 1.1. Bài toán Tối ưu hóa Tổng thặng dư xã hội (Social Welfare Maximization)
 Hàm mục tiêu của DAM là tối đa hóa Tổng thặng dư xã hội ($SW$):

@@ -3,7 +3,7 @@ contributors:
   - Khanh k67
   - Thanh K67
 ---
-Direct Parent Connection: -> [[Power_System_Scheduling]]
+Direct Parent Connection: -> [[Real_Time_Balancing]]
 
 # LAYER: PRIMARY CONTROL (TẦNG ĐIỀU KHIỂN SƠ CẤP)
 *(Trục Thời gian L3: Khung thời gian vật lý tức thời, nơi các định luật Newton và phương trình động lực học bảo vệ sinh mệnh của Lưới điện khỏi sự sụp đổ).*
@@ -34,18 +34,18 @@ Direct Parent Connection: -> [[Power_System_Scheduling]]
 ---
 
 ## 2. TƯƠNG TÁC CỤC BỘ (LOCAL INTERACTION VIEW)
-*(Cách Nút Primary tương tác với Container: `Power_System_Scheduling`).*
+*(Cách Nút Primary tương tác với Container: `Real_Time_Balancing`).*
 
 ### 2.1. Luồng tín hiệu đầu vào (Nhận từ Container / Cấp trên)
-- **Nguồn gốc:** Nhận lệnh trực tiếp từ `Layer_Secondary_Control` (hoặc chức năng AGC trong phạm vi Scheduling).
+- **Nguồn gốc:** Nhận lệnh trực tiếp từ `Layer_Secondary_Control` (hoặc chức năng AGC trong phạm vi Balancing).
 - **Nội dung tín hiệu:** Lệnh giá trị đặt (Set-points) về công suất phát cơ sở và tần số tham chiếu danh định.
 - **Đặc điểm tương tác:** `Layer_Primary_Control` tiếp nhận Set-points như một điểm neo tĩnh. Bộ điều khiển sơ cấp không có quyền thay đổi Set-points mà chỉ giám sát độ lệch tần số cục bộ để bơm/giảm công suất trên nền của Set-point này.
 
 ### 2.2. Luồng tín hiệu đầu ra (Gửi ngược lên Container)
 - **Chức năng cốt lõi:** Phản ứng tự động để hãm đà suy giảm tần số (ngăn rớt nadir) ngay khi mất cân bằng.
 - **Đặc tính đáp ứng:** Hoạt động trong dải mili-giây (Inertia) đến vài giây (Droop control).
-- **Kết quả đầu ra cục bộ:** Lượng công suất bù tức thời $\Delta P$ được đưa ngược trở lại Container `Power_System_Scheduling` như một thông số trạng thái mới. Hệ thống đạt điểm cân bằng mới nhưng vẫn tồn tại sai số tĩnh, báo hiệu cho Secondary Control chuẩn bị can thiệp.
+- **Kết quả đầu ra cục bộ:** Lượng công suất bù tức thời $\Delta P$ được đưa ngược trở lại Container `Real_Time_Balancing` như một thông số trạng thái mới. Hệ thống đạt điểm cân bằng mới nhưng vẫn tồn tại sai số tĩnh, báo hiệu cho Secondary Control chuẩn bị can thiệp.
 
 ### 2.3. Ràng buộc nội bộ (Constraints & Limits)
-- **Giới hạn dự phòng sơ cấp:** Biên độ $\Delta P$ bị giới hạn cứng bởi dung lượng dự phòng sơ cấp (Primary Reserve) mà Scheduling đã phân bổ. Khi đạt giới hạn, bộ điều khiển bão hòa.
+- **Giới hạn dự phòng sơ cấp:** Biên độ $\Delta P$ bị giới hạn cứng bởi dung lượng dự phòng sơ cấp (Primary Reserve) mà hệ thống đã phân bổ. Khi đạt giới hạn, bộ điều khiển bão hòa.
 - **Tính thiển cận có chủ đích:** Nút này được thiết kế để "không quan tâm" triệt tiêu hoàn toàn sai lệch, chỉ tập trung 100% vào tốc độ đáp ứng để ổn định trạng thái cục bộ nhanh nhất.

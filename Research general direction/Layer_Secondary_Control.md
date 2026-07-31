@@ -3,7 +3,7 @@ contributors:
   - Khanh k67
   - Thanh K67
 ---
-Direct Parent Connection: -> [[Power_System_Scheduling]]
+Direct Parent Connection: -> [[Real_Time_Balancing]]
 
 # LAYER: SECONDARY CONTROL (TẦNG ĐIỀU ĐỘ NGẮN HẠN / THỜI GIAN THỰC)
 *(Trục Thời gian L2: Nút giao hòa giữa bài toán Tối ưu hóa Kinh tế và Lý thuyết Điều khiển tự động, giữ trọng trách triệt tiêu hoàn toàn sai số).*
@@ -39,7 +39,7 @@ Tuân thủ đẳng thức Kirchhoff và các bất đẳng thức vật lý, th
 ---
 
 ## 2. TƯƠNG TÁC CỤC BỘ (LOCAL INTERACTION VIEW)
-*(Cách Layer Secondary đóng vai trò cơ chế chấp hành bị giam lỏng bên trong Container: `Power_System_Scheduling`).*
+*(Cách Layer Secondary đóng vai trò cơ chế chấp hành bị giam lỏng bên trong Container: `Real_Time_Balancing`).*
 
 ### 2.1. Phân tích Tín hiệu Đầu vào (Nhận từ Container / Cấp trên)
 1. **Lịch chạy máy (Unit Commitment - UC):** Tín hiệu nhị phân (On/Off). Secondary Control chỉ được kích hoạt điều tần cho các tổ máy có trạng thái "On".
@@ -49,4 +49,4 @@ Tuân thủ đẳng thức Kirchhoff và các bất đẳng thức vật lý, th
 1. **Tạo Lệnh Bù trừ Sai số (AGC Set-point):** Tín hiệu liên tục (vài giây - 1 phút) cộng dồn vào $P_{base}$ thành điểm đặt mới $P_{ref} = P_{base} + \Delta P_{AGC, i}$.
 2. **Truyền Tín hiệu Set-point xuống Bộ Điều tốc (Governor):** Primary Control bản chất là tỷ lệ (Droop), luôn để lại **sai số tĩnh (steady-state error)**. Tín hiệu Set-point từ Secondary đóng vai trò như một khâu tích phân chủ động thay đổi gốc tham chiếu của Primary, ép hệ thống kéo tần số về đúng giá trị danh định. 
 
-**Tổng kết luồng:** Điều độ (Scheduling) $\rightarrow$ Điều khiển Tối ưu hóa (AGC) $\rightarrow$ Lệnh thay đổi tham chiếu (Reference Change). Hoàn toàn cô lập khỏi động lực học cơ điện quay của Lưới điện vật lý.
+**Tổng kết luồng:** Điều độ (Balancing) $\rightarrow$ Điều khiển Tối ưu hóa (AGC) $\rightarrow$ Lệnh thay đổi tham chiếu (Reference Change). Hoàn toàn cô lập khỏi động lực học cơ điện quay của Lưới điện vật lý.

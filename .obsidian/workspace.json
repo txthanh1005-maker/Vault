@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a53e64e1d186a7e7",
+        "id": "facb9de6edb5f24d",
         "type": "tabs",
         "children": [
           {
-            "id": "6d76a6d109977010",
+            "id": "aa1e8dbf18d01f06",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -39,7 +39,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -76,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "04d0e67705b4ca48",
@@ -196,24 +196,28 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "juggl:Juggl global graph": false
+      "juggl:Juggl global graph": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "6d76a6d109977010",
+  "active": "aa1e8dbf18d01f06",
   "lastOpenFiles": [
+    "Research/Droop control and real time coordination..pdf",
     "Research general direction/Real_Time_Balancing.md",
-    "Research general direction/Capacity_Planning.md",
-    "Research general direction/Day_Ahead_Market.md",
-    "Research general direction/Layer_Tertiary_Control.md",
-    "Research general direction/Layer_Secondary_Control.md",
+    "Research/Unconfirmed 917675.crdownload",
     "Research general direction/Layer_Primary_Control.md",
+    "Research general direction/Layer_Secondary_Control.md",
+    "Research general direction/Day_Ahead_Market.md",
+    "Research general direction/Capacity_Planning.md",
+    "Research general direction/Unit_Commitment.md",
     "Research general direction/Power_System_Scheduling.md",
+    "Research general direction/Algorithm.md",
+    "Research general direction/Layer_Tertiary_Control.md",
     "Research general direction/Resilience_Short_Term.md",
     "Research general direction/Primary_Secondary_Control.md",
     "Research general direction/Power_Grid_System.md",
     "Research general direction/Real_Time_Dispatch.md",
     "Research general direction/Game_Theory.md",
-    "Research general direction/Algorithm.md",
     "Research general direction/V1G_Electric_Vehicle.md",
     "Research general direction/Operational_Objectives.md",
     "Research general direction/Price_Responsive_EV.md",
@@ -225,8 +229,6 @@
     "Research general direction/EV_Sizing.md",
     "Research general direction/Case_Study_EV_Rebound_Peak.md",
     "Research general direction/Load.md",
-    "Research general direction/V2G_Electric_Vehicle.md",
-    "Research general direction/EV_Heterogeneous_Allocation.md",
     "desktop.ini",
     "Excalidraw",
     "Templates/desktop.ini",
