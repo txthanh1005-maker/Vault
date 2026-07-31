@@ -1,4 +1,8 @@
-Direct Parent Connection: -> [[Power_Grid_System]]
+---
+contributors:
+  - Thanh K67
+---
+Direct Parent Connection: -> [[Grid_Cyber_Data]]
 
 # COMMUNICATION (VIỄN THÔNG & DỮ LIỆU)
 *(Nút Không gian Lớp 1: Đóng vai trò là Hệ thần kinh truyền dẫn thông tin của Lưới điện Thông minh).*

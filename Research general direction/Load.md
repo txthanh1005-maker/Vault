@@ -3,7 +3,7 @@ contributors:
   - Khanh k67
   - Thanh K67
 ---
-Direct Parent Connection: -> [[Power_Grid_System]]
+Direct Parent Connection: -> [[Grid_Physical_Assets]]
 
 # LOAD (PHỤ TẢI)
 *(Nút Không gian Lớp 1: Đại diện cho các điểm tiêu thụ điện năng, nơi biến điện năng thành các dạng năng lượng khác phục vụ đời sống).*

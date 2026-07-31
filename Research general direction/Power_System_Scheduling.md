@@ -3,7 +3,7 @@ contributors:
   - Khanh k67
   - Thanh K67
 ---
-Direct Parent Connection: -> [[Power_Grid_System]]
+Direct Parent Connection: -> [[Grid_Intelligence]]
 
 # Lập lịch và Điều độ Hệ thống Điện (Power System Scheduling & Control)
 *(Trạm trung chuyển quản lý dòng thời gian của hệ thống điện, đóng vai trò là "Bộ Não" phân bổ nguồn lực dựa trên ràng buộc của Lưới điện vật lý).*

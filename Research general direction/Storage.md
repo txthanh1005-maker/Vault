@@ -1,4 +1,8 @@
-Direct Parent Connection: -> [[Power_Grid_System]]
+---
+contributors:
+  - Thanh K67
+---
+Direct Parent Connection: -> [[Grid_Physical_Assets]]
 
 # STORAGE (HỆ THỐNG LƯU TRỮ)
 *(Nút Lớp 1 đại diện cho toàn bộ các công nghệ lưu trữ năng lượng trong hệ thống điện).*

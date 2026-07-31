@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "facb9de6edb5f24d",
+        "id": "966df3dba153cb97",
         "type": "tabs",
         "children": [
           {
-            "id": "aa1e8dbf18d01f06",
+            "id": "754bd7853c231518",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -200,8 +200,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "aa1e8dbf18d01f06",
+  "active": "754bd7853c231518",
   "lastOpenFiles": [
+    "Research general direction/Grid_Physical_Assets.md",
+    "Research general direction/Grid_Cyber_Data.md",
+    "Research general direction/Grid_Intelligence.md",
+    "Research general direction/Power_Electronics.md",
     "Research/Droop control and real time coordination..pdf",
     "Research general direction/Real_Time_Balancing.md",
     "Research/Unconfirmed 917675.crdownload",
@@ -226,9 +230,6 @@
     "Research general direction/Grid_Connected_EV_Sizing.md",
     "Research general direction/Source_of_System.md",
     "Research general direction/Standalone_EV_Sizing.md",
-    "Research general direction/EV_Sizing.md",
-    "Research general direction/Case_Study_EV_Rebound_Peak.md",
-    "Research general direction/Load.md",
     "desktop.ini",
     "Excalidraw",
     "Templates/desktop.ini",

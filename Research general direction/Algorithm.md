@@ -3,7 +3,7 @@ contributors:
   - Thanh K67
   - Khanh k67
 ---
-Direct Parent Connection: -> [[Power_Grid_System]]
+Direct Parent Connection: -> [[Grid_Intelligence]]
 
 # ALGORITHM (THUẬT TOÁN & TOÁN HỌC)
 *(Nút Không gian Lớp 1: Bộ NÃO điều phối toàn bộ các thành phần của lưới điện bằng sức mạnh tính toán).*

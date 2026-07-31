@@ -2,7 +2,7 @@
 contributors: 
   - Khanh k67
 ---
-Direct Parent Connection: -> [[Power_Grid_System]]
+Direct Parent Connection: -> [[Grid_Physical_Assets]]
 
 # SOURCE OF SYSTEM (NGUỒN PHÁT)
 *(Nút Không gian Lớp 1: Đóng vai trò là cơ bắp và gốc rễ năng lượng của toàn bộ hệ thống).*
