@@ -4,8 +4,8 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
-  "showOrphans": false,
-  "collapse-color-groups": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "Thành_ hướng nghiên cứu",
@@ -25,6 +25,6 @@
   "repelStrength": 18.0208333333333,
   "linkStrength": 0,
   "linkDistance": 130,
-  "scale": 0.8323786028781307,
+  "scale": 0.5937152330449197,
   "close": false
 }

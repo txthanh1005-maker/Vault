@@ -24,7 +24,7 @@ Direct Parent Connection: -> [[Power_Grid_System]]
 
 ### 2.2. Phân loại theo Bản chất Toán học (Mathematical Core)
 - **[[Exact_Solvers]]:** Giải chính xác. Bao gồm Quy hoạch Tuyến tính (LP), Nguyên hỗn hợp (MILP), Quy hoạch Động (DP).
-- **[[Heuristics_Metaheuristics]]:** Xấp xỉ/Cảm tính. Bao gồm GA, PSO (Stochastic search).
+- **[[Heuristics_Metaheuristics]]:** Xấp xỉ/Cảm tính. Bao gồm GA, PSO (Stochastic search). -> thuần "bao cát"
 - **[[Machine_Learning_Grid]]:** Dữ liệu hóa. Học sâu (ANN), Học tăng cường (DRL).
 - **[[Convex_Optimization]]:** Lý thuyết tối ưu lồi (KKT conditions) và không lồi.
 - **[[ADMM]]:** Phương pháp phân rã, xử lý đồng thuận phân tán (Distributed consensus).
