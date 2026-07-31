@@ -17,13 +17,13 @@ Direct Parent Connection: -> [[Communication]]
 - **Người đảm nhiệm (Assignee):** D.M.Hai K67
 - **Hệ tham chiếu (Container):** Communication
 - Tương tác đầu vào: Được kích hoạt bởi tín hiệu cảnh báo từ module Signal Detection.
-- Tương tác đầu ra: Phục hồi sự trọn vẹn và độ chính xác của tín hiệu từ PMU, sau đó cung cấp tín hiệu "sạch" cho các vòng điều khiển ([[PI_Control]], [[MPC_Control]]).
+- Tương tác đầu ra: Phục hồi sự trọn vẹn và độ chính xác của tín hiệu từ PMU, sau đó cung cấp tín hiệu "sạch" cho các vòng điều khiển ([[PI_Control]], [[MPC]]).
 - Động lực học tương tác: Việc khôi phục kịp thời là điều kiện sống còn của hệ thống điều khiển:
   - **Đối với [[PI_Control]]:** Giúp khâu tích phân (Integral) không bị cộng dồn sai số dị thường khi tín hiệu bị đứt quãng.
-  - **Đối với [[MPC_Control]]:** Giúp ma trận dự báo tương lai của MPC không bị phá sản. Nếu dữ liệu bị hổng, hàm mục tiêu của MPC sẽ giải ra nghiệm sai. Do đó, Signal Recovery đóng vai trò nền tảng để MPC hoạt động ổn định.
+  - **Đối với [[MPC]]:** Giúp ma trận dự báo tương lai của MPC không bị phá sản. Nếu dữ liệu bị hổng, hàm mục tiêu của MPC sẽ giải ra nghiệm sai. Do đó, Signal Recovery đóng vai trò nền tảng để MPC hoạt động ổn định.
 
 ## 3. Điểm mạnh, Điểm yếu & Ứng dụng (Pros, Cons & Use Cases)
 - **Điểm mạnh (Strengths):** Khắc phục được nhược điểm của mạng truyền thông kém chất lượng, bảo toàn hiệu năng của vòng điều khiển.
 - **Điểm yếu (Weaknesses):** Nếu mất tín hiệu quá lâu (burst loss), dữ liệu tái tạo có thể hoàn toàn sai lệch, khiến bộ điều khiển hành động sai lầm nghiêm trọng hơn.
-- **Khi nào dùng (When to use):** Dùng cho các hệ thống WAMC có đường truyền dễ bị nhiễu, packet loss, kết hợp với các bộ điều khiển cao cấp như [[PI_Control]], [[MPC_Control]] yêu cầu dữ liệu liên tục.
+- **Khi nào dùng (When to use):** Dùng cho các hệ thống WAMC có đường truyền dễ bị nhiễu, packet loss, kết hợp với các bộ điều khiển cao cấp như [[PI_Control]], [[MPC]] yêu cầu dữ liệu liên tục.
 - **Khi nào KHÔNG dùng (When NOT to use):** Khi hệ thống trải qua sự cố mất truyền thông diện rộng (Blackout truyền thông); lúc này nên chuyển hướng sang cơ chế điều khiển cục bộ (Local Control).

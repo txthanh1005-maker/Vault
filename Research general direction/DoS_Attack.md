@@ -1,14 +1,29 @@
 ---
-contributors: [D.M.Hai K67]
+contributors: 
+  - D.M.Hai K67
 ---
-*Implemented by pure_entity_researcher and grid_interaction_researcher*
+Direct Parent Connection: -> [[Inside_Attack]]
 
--> [[Inside_Attack]]
+# Denial of Service Attack (DoS)
+*(Tấn công Từ chối Dịch vụ: Dạng tấn công cạn kiệt tài nguyên mạng và hệ thống hàng đợi bằng lưu lượng dữ liệu rác, nhằm đánh sập kênh giao tiếp)*
 
-# Denial of Service (DoS) Attack
+## 1. Đặc tính Nội tại (Pure Entity View)
+- **Người đảm nhiệm (Assignee):** pure_entity_researcher
+- **Cấu trúc Hàng đợi (Queueing Model):** Node mạng bị tấn công hoạt động theo hệ thống $M/M/c/K$. DoS ép $\lambda \to \infty$ khiến $\rho = \frac{\lambda}{c \mu} \ge 1$. Hàng đợi $Q(t)$ dâng cao chạm đỉnh $K$, đưa hệ thống vào trạng thái bất ổn định (unstable state).
+- **Vật lý cạn kiệt tài nguyên:** Khủng hoảng ngắt phần cứng (Interrupt Storm/Livelock). Khi $\lambda_{IRQ} > \frac{F_{cpu}}{C_{ctx}}$, 100% thời gian CPU bị kẹt ở Kernel-space, đóng băng hoàn toàn User-space. Đối với Stateful DoS (như TCP SYN), số lượng kết nối $S(t)$ hội tụ lên đỉnh dung lượng RAM, ép hệ thống thả (drop) hoàn toàn chức năng mạng.
+- **Nhiệt động lực học Thông tin:** Dựa trên Nguyên lý Landauer. Tốc độ bơm Entropy cực đại từ luồng rác DoS vượt xa tốc độ giảm Entropy (xử lý dữ liệu có trật tự) của CPU, tạo ra nút thắt cổ chai tính toán triệt để.
 
-## Yin (Physics/Code/Vulnerability)
-Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks target the availability of communication networks and control centers in the power grid. Attackers flood the network with overwhelming amounts of traffic, exhausting bandwidth, processing power, or memory resources of critical devices like RTUs (Remote Terminal Units), PMUs, or control servers. Vulnerabilities include inadequate rate limiting, lack of network segmentation, and insufficient resources to handle traffic spikes. This disrupts the real-time flow of critical operational data.
+## 2. Tương tác Cục bộ (Local Interaction View)
+- **Người đảm nhiệm (Assignee):** grid_interaction_researcher
+- **Hệ tham chiếu (Container):** Inside_Attack (Mạng liên lạc/dữ liệu nội bộ)
+- **Tín hiệu In/Out Cục bộ:** 
+  - Đầu vào từ Container: Băng thông khả dụng $BW_{avail}$, Kích thước bộ đệm $Q_{max}$. 
+  - Tín hiệu của DoS: Tốc độ bơm $\lambda_{DoS}(t)$ (Packets/second).
+  - Tín hiệu Đầu ra cục bộ: Tín hiệu trễ thời gian $\tau(t)$ và Tín hiệu suy hao dữ liệu $\eta(t)$.
+- **Động lực học Hàm truyền:** Hàm truyền mạng ở trạng thái bình yên là khâu trễ tĩnh $H_{ideal}(s) = e^{-s \tau_0}$. DoS biến đổi nó thành hệ phi tuyến bất định $H_{cyber}(s, t) = \big(1 - \eta(t)\big) \cdot e^{-s \cdot \tau(t)}$. Sự bành trướng của $\lambda_{DoS}$ bóp nghẹt biên độ truyền đạt $(1-\eta) \to 0$ và kéo dãn trễ pha tới vô cùng $\tau(t) \to \infty$.
 
-## Yang (Grid Impact)
-The disruption of communication caused by DoS attacks directly impacts the grid's observability and controllability. When operators lose real-time visibility (loss of telemetry) and the ability to send control commands, the grid operates "blind." This delay or failure in communication can prevent timely responses to natural disturbances or faults, potentially causing localized outages to spread. While a DoS attack alone might not directly damage physical equipment, the resulting inability to balance generation and load or clear faults can lead to frequency instability, voltage collapse, and eventual cascading blackouts.
+## 3. Điểm mạnh, Điểm yếu & Ứng dụng (Pros, Cons & Use Cases)
+- **Điểm mạnh (Strengths):** Không cần hiểu cấu trúc ma trận topology của lưới điện (Black-box attack). Sức tàn phá diện rộng, cắt đứt hoàn toàn dòng chảy Dữ liệu (Availability).
+- **Điểm yếu (Weaknesses):** Thiếu tính ẩn mình (Stealth). Lưu lượng khổng lồ (Traffic Spike) rất dễ bị thiết bị lọc Firewall/IDS phát hiện và khóa IP.
+- **Khi nào dùng (When to use):** Ngăn chặn luồng dữ liệu PMU gửi về Control Center, khiến các thuật toán như PI/MPC bị "mù", làm đứt gãy vòng lặp điều khiển kín.
+- **Khi nào KHÔNG dùng (When NOT to use):** Khi mục đích tấn công là thao túng con số để trục lợi thị trường (FDI) mà không để lộ hành tung.
