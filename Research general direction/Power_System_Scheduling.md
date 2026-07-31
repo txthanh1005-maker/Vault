@@ -16,7 +16,6 @@ Direct Parent Connection: -> [[Power_Grid_System]]
 
 ## 2. Sơ đồ Phân loại (Taxonomy / Splitting)
 *(Kiến trúc phân tầng thời gian khép kín, được tách bạch rõ ranh giới để giải quyết bài toán Đa khung)*
-- **[Layer Tertiary Control](obsidian://open?file=Layer_Tertiary_Control):** Tầng Lập lịch Dài hạn (Tuần/Tháng/Năm) - Gốc rễ của quy hoạch và dự báo vĩ mô.
-- **[Day Ahead Market](obsidian://open?file=Day_Ahead_Market):** Thị trường Ngày tới (24h) - Chiến trường của Bài toán tổ hợp máy phát (UC) và định giá thanh toán.
-- **[Layer Secondary Control](obsidian://open?file=Layer_Secondary_Control):** Tầng Điều độ Ngắn hạn (Phút/Giờ) - Tối ưu hóa trào lưu công suất (OPF) và AGC.
-- **[Layer Primary Control](obsidian://open?file=Layer_Primary_Control):** Tầng Điều khiển Sơ cấp (Mili-giây/Giây) - Phản xạ tủy sống vật lý tự nhiên (Droop, Quán tính).
+- **[Capacity Planning](obsidian://open?file=Capacity_Planning):** Quy hoạch Dài hạn (Tháng/Năm) - Gốc rễ của quy hoạch và mở rộng hệ thống.
+- **[Day Ahead Market](obsidian://open?file=Day_Ahead_Market):** Thị trường Ngày tới (24h) - Lập lịch, Unit Commitment (UC) và định giá thanh toán.
+- **[Real Time Balancing](obsidian://open?file=Real_Time_Balancing):** Vận hành & Cân bằng Thời gian Thực (Ms đến Giờ) - Bao gồm Tertiary, Secondary, và Primary Control để dập tắt sai số.
