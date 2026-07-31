@@ -1,7 +1,6 @@
 ---
 contributors: 
-  - Khanh k67
-  - Thanh K67
+  - D.M.Hai K67
 ---
 Direct Parent Connection: -> [[Power_Grid_System]]
 

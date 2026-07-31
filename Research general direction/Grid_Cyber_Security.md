@@ -1,8 +1,6 @@
 ---
 contributors: 
   - D.M.Hai K67
-  - Khanh k67
-  - Thanh K67
 ---
 Direct Parent Connection: -> [[Grid_Cyber_Data]]
 

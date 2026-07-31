@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "D.M.Hai",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -26,5 +26,5 @@
   "linkStrength": 0,
   "linkDistance": 130,
   "scale": 0.5937152330449197,
-  "close": true
+  "close": false
 }
