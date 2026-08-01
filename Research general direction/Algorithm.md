@@ -2,6 +2,7 @@
 contributors: 
   - Thanh K67
   - Khanh k67
+  - D.M.Hai K67
 ---
 Direct Parent Connection: -> [[Grid_Intelligence]]
 
@@ -29,3 +30,7 @@ Direct Parent Connection: -> [[Grid_Intelligence]]
 - **[[Convex_Optimization]]:** Lý thuyết tối ưu lồi (KKT conditions) và không lồi.
 - **[[ADMM]]:** Phương pháp phân rã, xử lý đồng thuận phân tán (Distributed consensus).
 - **[Game_Theory](obsidian://open?file=Game_Theory):** Lý thuyết trò chơi. Mô hình hóa sự tương tác, cạnh tranh (Stackelberg) và hợp tác giữa các thực thể ra quyết định độc lập (Multi-Agent).
+
+### 2.3. Phân loại theo Xử lý Tín hiệu & Lọc Tần số (Signal Processing & Frequency Filtering - HESS)
+- **[Low_Pass_Filter](obsidian://open?file=Low_Pass_Filter):** Bộ lọc thông thấp miền thời gian ($H(s) = \frac{1}{1 + \tau s}$), tách thành phần dao động tần số thấp cho thiết bị lưu trữ chậm/dung lượng lớn (Hydro, BESS).
+- **[Fast_Fourier_Transform](obsidian://open?file=Fast_Fourier_Transform):** Biến đổi Fourier nhanh ($O(N \log N)$), phân tích phổ miền tần số để cắt và phân rã tín hiệu dao động công suất tải/tái tạo thành 3 dải chuyên biệt trong Hệ thống Lưu trữ Năng lượng Hỗn hợp (HESS).

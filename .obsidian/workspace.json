@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "498414f7c23430f0",
+        "id": "7745b5ddfdcd87fd",
         "type": "tabs",
         "children": [
           {
-            "id": "780dfbbf044a29e1",
+            "id": "fa4cd7c0b046e615",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -202,10 +202,15 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "780dfbbf044a29e1",
+  "active": "fa4cd7c0b046e615",
   "lastOpenFiles": [
-    "Research general direction/Storage_Economics_Cost.md",
+    "Research general direction/DATN_HTHai.md",
+    "Research general direction/Low_Pass_Filter.md",
+    "Research general direction/Grid_Intelligence.md",
+    "Research general direction/Fast_Fourier_Transform.md",
     "Research general direction/Storage.md",
+    "Research general direction/FFT_Storage_Coordination_DMHai.md",
+    "Research general direction/Storage_Economics_Cost.md",
     "Research general direction/Power_Grid_System.md",
     "Research general direction/Storage_Degradation_Lifetime.md",
     "Research general direction/Supercapacitor.md",
@@ -227,11 +232,6 @@
     "Research general direction/Signal_Loss.md",
     "Research general direction/Communication_Delay.md",
     "Research general direction/Blockchain.md",
-    "Research general direction/GPS_Spoofing.md",
-    "Research general direction/Inside_Attack.md",
-    "Research general direction/DoS_Attack.md",
-    "Research general direction/MPC_Control.md",
-    "Research general direction/Outside_Attack.md",
     "Research/Unconfirmed 917675.crdownload",
     "desktop.ini",
     "Excalidraw",
