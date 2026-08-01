@@ -4,6 +4,7 @@ contributors:
   - Thanh K67
   - D.M.Hai K67
   - H.T.Hải K67
+  - N.H.Anh k66
 color: red
 ---
 # POWER GRID SYSTEM (Gốc Tọa Độ)

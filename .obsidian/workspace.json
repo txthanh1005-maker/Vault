@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa4cd7c0b046e615",
+            "id": "c07e08ecfc57aabe",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -202,8 +202,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "fa4cd7c0b046e615",
+  "active": "c07e08ecfc57aabe",
   "lastOpenFiles": [
+    "Research general direction/DC_DC_Converter.md",
+    "Research general direction/STATCOM.md",
+    "Research general direction/MMC.md",
+    "Research general direction/Power_Electronics.md",
+    "Research general direction/Inverter.md",
     "Research general direction/DATN_HTHai.md",
     "Research general direction/Low_Pass_Filter.md",
     "Research general direction/Grid_Intelligence.md",
@@ -227,11 +232,6 @@
     "Research general direction/Grid_Cyber_Data.md",
     "Research general direction/FDI_Attack.md",
     "Research general direction/Ransomware_Attack.md",
-    "Research general direction/PI_Control.md",
-    "Research general direction/Signal_Detection.md",
-    "Research general direction/Signal_Loss.md",
-    "Research general direction/Communication_Delay.md",
-    "Research general direction/Blockchain.md",
     "Research/Unconfirmed 917675.crdownload",
     "desktop.ini",
     "Excalidraw",
