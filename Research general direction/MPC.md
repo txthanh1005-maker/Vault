@@ -28,4 +28,4 @@ Thuật toán Điều khiển Dự báo Mô hình (MPC) là một chiến lượ
 
 ## 3. Liên kết trong Zettelkasten
 - Khối MPC này là công cụ hoàn hảo cho **[[Resilience_Short_Term]]**, đặc biệt khi cần phản ứng siêu tốc (Fast DR, BESS Pulse) trong 15-60 phút.
-- MPC thường đóng vai trò ở lớp **[[Layer_Primary_Control]]** hoặc **[[Layer_Secondary_Control]]** do tốc độ đáp ứng cực cao (từ ms đến vài giây).
+- MPC thường đóng vai trò ở lớp **[[Layer_Tertiary_Control]]** hoặc **[[Layer_Secondary_Control]]** do tốc độ đáp ứng cực cao (từ ms đến vài giây).

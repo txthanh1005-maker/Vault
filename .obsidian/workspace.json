@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc92ed26823490a5",
+        "id": "498414f7c23430f0",
         "type": "tabs",
         "children": [
           {
-            "id": "a7413a7000bcd37e",
+            "id": "780dfbbf044a29e1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -39,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -200,13 +202,22 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a7413a7000bcd37e",
+  "active": "780dfbbf044a29e1",
   "lastOpenFiles": [
-    "Excalidraw/desktop.ini",
+    "Research general direction/Storage_Economics_Cost.md",
+    "Research general direction/Storage.md",
+    "Research general direction/Power_Grid_System.md",
+    "Research general direction/Storage_Degradation_Lifetime.md",
+    "Research general direction/Supercapacitor.md",
+    "Research general direction/Hydrogen_Storage.md",
     "Research general direction/MPC.md",
+    "Research general direction/Layer_Tertiary_Control.md",
+    "Research general direction/Layer_Primary_Control.md",
+    "Research/Droop control and real time coordination..pdf",
+    "Research general direction/Real_Time_Balancing.md",
+    "Excalidraw/desktop.ini",
     "Research general direction/Signal_Recovery.md",
     "Research general direction/Communication.md",
-    "Research general direction/Power_Grid_System.md",
     "Research general direction/Grid_Cyber_Security.md",
     "Research general direction/Grid_Cyber_Data.md",
     "Research general direction/FDI_Attack.md",
@@ -221,15 +232,7 @@
     "Research general direction/DoS_Attack.md",
     "Research general direction/MPC_Control.md",
     "Research general direction/Outside_Attack.md",
-    "Research general direction/Grid_Physical_Assets.md",
-    "Research general direction/Grid_Intelligence.md",
-    "Research general direction/Power_Electronics.md",
-    "Research/Droop control and real time coordination..pdf",
-    "Research general direction/Real_Time_Balancing.md",
     "Research/Unconfirmed 917675.crdownload",
-    "Research general direction/Layer_Primary_Control.md",
-    "Research general direction/Layer_Secondary_Control.md",
-    "Research general direction/Day_Ahead_Market.md",
     "desktop.ini",
     "Excalidraw",
     "Templates/desktop.ini",
