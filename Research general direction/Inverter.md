@@ -5,7 +5,17 @@ contributors:
 Direct Parent Connection: -> [[Power_Electronics]]
 
 # INVERTER (NGHỊCH LƯU / BI-DIRECTIONAL INVERTER)
-*(Nút Thực thể Lớp 2: Bộ biến đổi điện áp một chiều sang xoay chiều DC/AC hai chiều, cổng giao tiếp công suất chủ chốt cho Nguồn phân tán, Lưu trữ và Xe điện).*
+*(Nút Thực thể & Hub Phân loại Lớp 2: Bộ biến đổi điện áp một chiều sang xoay chiều DC/AC hai chiều, cổng giao tiếp công suất chủ chốt cho Nguồn phân tán, Lưu trữ và Xe điện).*
+
+## 1. Bản chất & Tính chất Chung (Common Properties)
+- Là bộ biến đổi điện tử công suất hai chiều chủ chốt đóng cắt ở tần số cao để chuyển đổi giữa điện áp một chiều (DC) và xoay chiều (AC).
+- Đóng vai trò màng lọc công suất, điều khiển độc lập công suất tác dụng ($P$) và phản kháng ($Q$), hỗ trợ kết nối lưới vi mô (Microgrid) và nguồn phân tán (DERs).
+
+## 2. Sơ đồ Phân loại Ứng dụng (Application Taxonomy)
+- **[Seamless_Transition](obsidian://open?file=Seamless_Transition):** Chuyển đổi chế độ Nối lưới / Độc lập liền mạch (bao gồm tập con `Open_Transition` và `Close_Transition`).
+- **[Grid_Following](obsidian://open?file=Grid_Following):** Chế độ Bám lưới truyền thống sử dụng bộ khóa pha SRF-PLL (bao gồm tập con `Power_Sharing` - Chia sẻ công suất song song theo nguồn dòng).
+- **[Grid_Forming](obsidian://open?file=Grid_Forming):** Chế độ Tạo lưới tự lập điện áp và tần số nút lưới, mô phỏng quán tính ảo (Virtual Synchronous Machine / Droop Control).
+- **[Harmonic_Mitigation](obsidian://open?file=Harmonic_Mitigation):** Triệt tiêu và lọc sóng hài chủ động (Active Power Filtering - APF) phía tải cục bộ và phía lưới AC.
 
 ---
 
