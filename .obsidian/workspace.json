@@ -20,7 +20,19 @@
             }
           },
           {
-            "id": "618969e8d48dedbe",
+            "id": "b8b5ec2478596e47",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-ghost",
+              "title": "juggl_view"
+            }
+          },
+          {
+            "id": "40a1416893bb3466",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -215,8 +227,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "618969e8d48dedbe",
+  "active": "40a1416893bb3466",
   "lastOpenFiles": [
+    "Research general direction/Algorithm.md",
     "Research general direction/Zettelkasten_Concentric_Graph.canvas",
     "Research general direction/MPC.md",
     "Research general direction/Layer_Secondary_Control.md",
