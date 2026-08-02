@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bfcd8a5fd9d42ea5",
+        "id": "f15272c88c7d66ce",
         "type": "tabs",
         "children": [
           {
-            "id": "285ab7bfec686feb",
+            "id": "6cb1e09d714c986e",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -202,9 +202,11 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "285ab7bfec686feb",
+  "active": "6cb1e09d714c986e",
   "lastOpenFiles": [
+    "Research general direction/Power_Sharing.md",
     "Research general direction/Grid_Following.md",
+    "Research general direction/Grid_Forming.md",
     "Research general direction/Harmonic_Mitigation.md",
     "Research general direction/Close_Transition.md",
     "Research general direction/Open_Transition.md",
@@ -229,9 +231,7 @@
     "Research general direction/Layer_Tertiary_Control.md",
     "Research general direction/Layer_Primary_Control.md",
     "Research/Droop control and real time coordination..pdf",
-    "Research general direction/Real_Time_Balancing.md",
     "Excalidraw/desktop.ini",
-    "Research general direction/Signal_Recovery.md",
     "Research/Unconfirmed 917675.crdownload",
     "desktop.ini",
     "Excalidraw",
