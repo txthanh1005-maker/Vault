@@ -1,7 +1,8 @@
 ---
-contributors: [Khanh k67]
-color: red
-related: 
+contributors:
+  - Khanh k67
+color: cyan
+related:
   - "[[Price_Responsive_EV]]"
   - "[[Price_Based_DR]]"
 ---
