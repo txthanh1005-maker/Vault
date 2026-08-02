@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "2d3076574e779398",
+        "id": "be5a5d99c672a16e",
         "type": "tabs",
         "children": [
           {
-            "id": "bb037d5627248bd0",
+            "id": "32dfc56352d5e193",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-ghost",
+              "title": "juggl_view"
+            }
+          },
+          {
+            "id": "618969e8d48dedbe",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -19,7 +31,8 @@
               "title": "Juggl"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,8 +215,9 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bb037d5627248bd0",
+  "active": "618969e8d48dedbe",
   "lastOpenFiles": [
+    "Research general direction/Zettelkasten_Concentric_Graph.canvas",
     "Research general direction/MPC.md",
     "Research general direction/Layer_Secondary_Control.md",
     "Research general direction/Layer_Tertiary_Control.md",
@@ -229,7 +243,6 @@
     "Research general direction/Grid_Following.md",
     "Research general direction/Power_Sharing.md",
     "Research general direction/Close_Transition.md",
-    "Research general direction/Open_Transition.md",
     "Research/Droop control and real time coordination..pdf",
     "Excalidraw/desktop.ini",
     "Research/Unconfirmed 917675.crdownload",
