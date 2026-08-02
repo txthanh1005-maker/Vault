@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7745b5ddfdcd87fd",
+        "id": "bfcd8a5fd9d42ea5",
         "type": "tabs",
         "children": [
           {
-            "id": "c07e08ecfc57aabe",
+            "id": "285ab7bfec686feb",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -202,10 +202,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "c07e08ecfc57aabe",
+  "active": "285ab7bfec686feb",
   "lastOpenFiles": [
-    "Research general direction/Harmonic_Mitigation.md",
     "Research general direction/Grid_Following.md",
+    "Research general direction/Harmonic_Mitigation.md",
+    "Research general direction/Close_Transition.md",
+    "Research general direction/Open_Transition.md",
     "Research general direction/Seamless_Transition.md",
     "Research general direction/DC_DC_Converter.md",
     "Research general direction/STATCOM.md",
@@ -230,8 +232,6 @@
     "Research general direction/Real_Time_Balancing.md",
     "Excalidraw/desktop.ini",
     "Research general direction/Signal_Recovery.md",
-    "Research general direction/Communication.md",
-    "Research general direction/Grid_Cyber_Security.md",
     "Research/Unconfirmed 917675.crdownload",
     "desktop.ini",
     "Excalidraw",
