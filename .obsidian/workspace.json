@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c59ac7ee4566446c",
+        "id": "2d3076574e779398",
         "type": "tabs",
         "children": [
           {
-            "id": "bdf4a076952d7ede",
+            "id": "bb037d5627248bd0",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 301.5
   },
   "right": {
     "id": "04d0e67705b4ca48",
@@ -202,8 +202,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "bdf4a076952d7ede",
+  "active": "bb037d5627248bd0",
   "lastOpenFiles": [
+    "Research general direction/MPC.md",
+    "Research general direction/Layer_Secondary_Control.md",
+    "Research general direction/Layer_Tertiary_Control.md",
+    "Research general direction/Resilience_Short_Term.md",
+    "Research general direction/Storage.md",
+    "Research general direction/Low_Pass_Filter.md",
+    "Research general direction/Fast_Fourier_Transform.md",
+    "Research general direction/Grid_Intelligence.md",
+    "Research general direction/Grid_Cyber_Data.md",
     "Research general direction/Grid_Physical_Assets.md",
     "Research general direction/Power_Grid_System.md",
     "Research general direction/Load.md",
@@ -221,15 +230,6 @@
     "Research general direction/Power_Sharing.md",
     "Research general direction/Close_Transition.md",
     "Research general direction/Open_Transition.md",
-    "Research general direction/Seamless_Transition.md",
-    "Research general direction/Grid_Forming.md",
-    "Research general direction/Inverter.md",
-    "Research general direction/STATCOM.md",
-    "Research general direction/DC_DC_Converter.md",
-    "Research general direction/MMC.md",
-    "Research general direction/Power_Electronics.md",
-    "Research general direction/Grid_Intelligence.md",
-    "Research general direction/Case_Study_EV_Rebound_Peak.md",
     "Research/Droop control and real time coordination..pdf",
     "Excalidraw/desktop.ini",
     "Research/Unconfirmed 917675.crdownload",

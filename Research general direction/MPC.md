@@ -28,5 +28,5 @@ Thuật toán Điều khiển Dự báo Mô hình (MPC) là một chiến lượ
 - **Cuộc chiến Tốc độ:** Chu kỳ tương tác phải duy trì ở vài **mili-giây (ms)**. Bất kỳ sự chậm trễ nào đều gây cộng hưởng phá vỡ lưới điện.
 
 ## 3. Liên kết trong Zettelkasten
-- Khối MPC này là công cụ hoàn hảo cho **[[Resilience_Short_Term]]**, đặc biệt khi cần phản ứng siêu tốc (Fast DR, BESS Pulse) trong 15-60 phút.
-- MPC thường đóng vai trò ở lớp **[[Layer_Tertiary_Control]]** hoặc **[[Layer_Secondary_Control]]** do tốc độ đáp ứng cực cao (từ ms đến vài giây).
+- Khối MPC này là công cụ hoàn hảo cho **[Resilience_Short_Term](obsidian://open?file=Resilience_Short_Term):**  đặc biệt khi cần phản ứng siêu tốc (Fast DR, BESS Pulse) trong 15-60 phút.
+- MPC thường đóng vai trò ở lớp **[Layer_Tertiary_Control](obsidian://open?file=Layer_Tertiary_Control):**  hoặc **[Layer_Secondary_Control](obsidian://open?file=Layer_Secondary_Control):** do tốc độ đáp ứng cực cao (từ ms đến vài giây).
