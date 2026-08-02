@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f15272c88c7d66ce",
+        "id": "c59ac7ee4566446c",
         "type": "tabs",
         "children": [
           {
-            "id": "6cb1e09d714c986e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "juggl_view",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Juggl"
-            }
-          },
-          {
-            "id": "a68056da473c26a2",
+            "id": "bdf4a076952d7ede",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -31,8 +19,7 @@
               "title": "Juggl"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,10 +202,18 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a68056da473c26a2",
+  "active": "bdf4a076952d7ede",
   "lastOpenFiles": [
     "Research general direction/Grid_Physical_Assets.md",
     "Research general direction/Power_Grid_System.md",
+    "Research general direction/Load.md",
+    "Research general direction/Flexible_Load.md",
+    "Research general direction/Demand_Response.md",
+    "Research general direction/Price_Responsive_EV.md",
+    "Research general direction/Electric_Vehicle.md",
+    "Research general direction/V1G_Electric_Vehicle.md",
+    "Research general direction/EV_Sizing.md",
+    "Research general direction/Standalone_EV_Sizing.md",
     "Research general direction/Grid_Harmonic_Mitigation.md",
     "Research general direction/Harmonic_Mitigation.md",
     "Research general direction/Local_Load_Harmonic_Mitigation.md",
@@ -235,14 +230,6 @@
     "Research general direction/Power_Electronics.md",
     "Research general direction/Grid_Intelligence.md",
     "Research general direction/Case_Study_EV_Rebound_Peak.md",
-    "Research general direction/DATN_HTHai.md",
-    "Research general direction/Low_Pass_Filter.md",
-    "Research general direction/Fast_Fourier_Transform.md",
-    "Research general direction/Storage.md",
-    "Research general direction/FFT_Storage_Coordination_DMHai.md",
-    "Research general direction/Storage_Economics_Cost.md",
-    "Research general direction/Storage_Degradation_Lifetime.md",
-    "Research general direction/Supercapacitor.md",
     "Research/Droop control and real time coordination..pdf",
     "Excalidraw/desktop.ini",
     "Research/Unconfirmed 917675.crdownload",

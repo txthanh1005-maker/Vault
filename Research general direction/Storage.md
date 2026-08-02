@@ -1,5 +1,5 @@
 ---
-weighttree: 0
+weighttree: 6
 contributors:
   - H.T.Hải K67
 ---

@@ -1,5 +1,5 @@
 ---
-weighttree: 0
+weighttree: 3
 contributors:
   - Thanh K67
 ---

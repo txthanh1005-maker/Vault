@@ -1,5 +1,5 @@
 ---
-weighttree: 0
+weighttree: 2
 contributors: 
   - N.H.Anh k66
 ---
