@@ -1,4 +1,5 @@
 ---
+weighttree: 0
 contributors: ["N.H.Anh k66"]
 ---
 Direct Parent Connection: -> [[Inverter]]
