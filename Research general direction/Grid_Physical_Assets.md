@@ -2,6 +2,7 @@
 contributors: 
   - Khanh k67
   - Thanh K67
+  - D.M.Hai K67
   - H.T.Hải K67
   - N.H.Anh k66
 ---

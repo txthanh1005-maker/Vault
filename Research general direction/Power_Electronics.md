@@ -1,7 +1,5 @@
 ---
-contributors: 
-  - Khanh k67
-  - Thanh K67
+contributors:
   - N.H.Anh k66
 ---
 Direct Parent Connection: -> [[Grid_Physical_Assets]]
