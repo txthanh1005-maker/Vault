@@ -1,0 +1,33 @@
+/* ============================================================
+   BẢNG MÀU JUGGL THEO WEIGHTTREE (LOẠI BỎ VIỀN / NO BORDERS)
+   ============================================================ */
+
+/* BỎ TOÀN BỘ VIỀN CỦA NÚT */
+node {
+  border-width: 0px !important;
+}
+
+/* TẦNG 1: NÚT LÁ (WEIGHTTREE 1 - 5) - MÀU ĐEN (BLACK) */
+node[degree <= 8] {
+  background-color: #1a1a1a;
+}
+
+/* TẦNG 2: NÚT VỪA (WEIGHTTREE 6 - 14) - XANH LỤC BẢO EMERALD (#10b981) */
+node[degree > 8][degree <= 12] {
+  background-color: #10b981;
+}
+
+/* TẦNG 3: NÚT LỚN (WEIGHTTREE 15 - 34) - VÀNG HỔ PHÁCH (#f39c12) */
+node[degree > 12][degree <= 15] {
+  background-color: #f39c12;
+}
+
+/* TẦNG 4: NÚT SIÊU HUB (WEIGHTTREE >= 35) - ĐỎ CRIMSON (#e74c3c) */
+node[degree > 15] {
+  background-color: #e74c3c;
+}
+
+/* ƯU TIÊN CAO NHẤT: Nếu ghi chú có khai báo thuộc tính 'color' riêng trong YAML */
+node[color] {
+  background-color: data(color);
+}

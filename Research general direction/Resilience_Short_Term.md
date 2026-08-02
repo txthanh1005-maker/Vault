@@ -4,13 +4,11 @@ contributors:
   - Thanh K67
 ---
 Direct Parent Connection: -> [[Operational_Objectives]]
-Cross-link Connection: -> [[Layer_Secondary_Control]]
-
 # RESILIENCE IN SHORT-TERM DISPATCH (ĐỘ ĐÀN HỒI TRONG ĐIỀU ĐỘ NGẮN HẠN 15-60 PHÚT)
 Khái niệm kiểm soát và duy trì sự sinh tồn của hệ thống điện khi đối mặt với các sự kiện xác suất thấp nhưng hậu quả cao (HILP - High-Impact Low-Probability). 
 
 ## 1. Mối liên kết chéo với Trục Thời Gian (Cross-link to Time-frame Axis)
-Độ đàn hồi không thể tách rời khỏi trục thời gian vật lý của lưới điện. Vị trí 15-60 phút (Short-term Dispatch) là điểm rơi chiến lược cực kỳ nhạy cảm và thuộc quyền chi phối của **[[Layer_Secondary_Control]]** (hoặc giao thoa một phần với Tertiary):
+Độ đàn hồi không thể tách rời khỏi trục thời gian vật lý của lưới điện. Vị trí 15-60 phút (Short-term Dispatch) là điểm rơi chiến lược cực kỳ nhạy cảm và thuộc quyền chi phối của **[Layer_Secondary_Control](obsidian://open?file=Layer_Secondary_Control):**  (hoặc giao thoa một phần với Tertiary):
 - Ở lớp này, Quán tính vật lý ban đầu (Primary Control) đã cạn kiệt sau vài giây đầu của sự cố.
 - Lưới điện không thể chờ khởi động nhà máy nhiệt điện (Unit Commitment ở Tertiary Control mất nhiều giờ).
 - Bắt buộc phải kích hoạt khối Resilience này để dùng thuật toán vắt kiệt tài nguyên linh hoạt cục bộ (Fast DR, BESS Pulse) chặn đứng đà sụp đổ (Blackout). Nhờ đó, nó tạo thành "cây cầu sinh tử" câu giờ cho lớp Tertiary can thiệp.
